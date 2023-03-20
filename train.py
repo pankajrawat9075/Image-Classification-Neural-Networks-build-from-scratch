@@ -23,4 +23,4 @@ args = parser.parse_args()
 layers = [args.hidden_size] * (args.num_layers+1)
 layers[0] = 28*28
 layers.append(10)
-train(layers,trainX,trainY,valX,valY,args.epochs,args.learning_rate,args.activation,args.optimizer,args.batch_size,args.weight_init,args.weight_decay,args.loss,args.momemtum ,args.beta ,args.beta1 ,args.beta2 ,args.epsilon)
+train(layers, trainX, trainY, valX, valY, args.epochs, args.learning_rate, args.activation, args.optimizer, args.batch_size, args.weight_init, args.weight_decay, args.loss, args.momemtum , args.beta ,args.beta1 ,args.beta2 ,args.epsilon)
