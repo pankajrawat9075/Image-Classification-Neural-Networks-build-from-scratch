@@ -1,4 +1,4 @@
-# CS6910_Assignment_1 
+# Image Classification Neural Networks build from scratch
 # roll no. CS22M062 Pankaj Singh Rawat
 
 **Instructions to train and evaluate the neural network models:**
